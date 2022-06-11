@@ -1,0 +1,78 @@
+@media all {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 100;
+        font-size:30px;
+    }
+    body{
+        height: 100vh;
+        margin: 0;
+        background-color: #F3F5FC;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #logoAlura{
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+
+    #botones{
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 10%;
+    }
+
+    #divBotonEmpezar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #divBotonAgregarPalabra{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    #botonEmpezarJuego{
+        color:#ffffff;
+        font-family:'Inter', sans-serif;
+        font-size: 30px;
+        background-color: #0A3871;
+        margin-top: 20px;
+        border-radius: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        padding-right:50px;
+        
+    }
+    #botonAgregarPalabra{
+        color:#0A3871;
+        font-family:'Inter', sans-serif;
+        font-size: 30px;
+        background-color:  #F3F5FC;
+        margin-top: 20px;
+        border-radius: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    
+    }
+    
+
+    footer{
+        margin-top: auto;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    footer h5, b{
+        font-size: 20px;
+    }
+    
+} 

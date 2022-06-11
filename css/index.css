@@ -47,6 +47,7 @@
         padding-bottom: 15px;
         padding-left: 50px;
         padding-right:50px;
+        cursor: pointer;
         
     }
     #botonAgregarPalabra{
@@ -60,8 +61,7 @@
         padding-bottom: 15px;
         padding-left: 50px;
         padding-right: 50px;
-        
-    
+        cursor: pointer;
     }
     
 
